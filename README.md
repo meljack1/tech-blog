@@ -40,7 +40,7 @@ Screenshots:
 ![Screenshot of the front page of the application](./assets/images/screenshot1.PNG)
 ![Screenshot of the dashboard page of the application](./assets/images/screenshot2.PNG)
 ![Screenshot of a post viewed individually](./assetsj/images/screenshot3.PNG)
-![Screenshot of the login page](./assetsj/images/screenshot4.PNG)
+![Screenshot of the login page](./assets/images/screenshot4.PNG)
 
 ## License 
 This project is covered under the MIT License: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
