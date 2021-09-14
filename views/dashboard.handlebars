@@ -25,12 +25,12 @@
 
   {{#if posts.length}}
   <div class="col-md-6 post-list">
-    <h3>Your posts:</h3>
+    <h3 class="mb-4">Your posts:</h3>
 
     {{#each posts as |post|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h2><a href="/post/{{post.id}}">{{post.title}}</a> | {{format_date post.date_created}}</h2> 
+        <p><a href="/post/{{post.id}}"><strong>{{post.title}}</strong></a> | {{format_date post.date_created}}</p> 
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{post.id}}">Delete</button>
