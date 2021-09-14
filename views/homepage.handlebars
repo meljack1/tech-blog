@@ -10,10 +10,10 @@
 {{#each posts as |post| }}
 
 <div class="card">
-  <h2 class="card-header">
+  <h2 class="card-header p-3">
 	  <a href="/post/{{post.id}}">{{post.title}}</a> 
 	</h2>
-  <div class="card-body">
+  <div class="card-body p-3">
     <h5 class="card-title"> 
       Posted by {{post.user.name}} on {{format_date post.date_created}} 
     </h5>
