@@ -21,3 +21,7 @@ header a:hover, header .btn:hover, .card a:hover {
     color: #EFE9F4;
     text-decoration: none;
 }
+
+.card-header {
+    background-color: #171D1C;
+}
