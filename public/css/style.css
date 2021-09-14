@@ -1,0 +1,23 @@
+body {
+    background-color: #EFE9F4;
+}
+
+a {
+    text-decoration: none;
+    color: #0670B1;
+}
+
+header {
+    height: 120px;
+    background-color: #171D1C;
+    color: #EFE9F4;
+}
+
+header a, header .btn, .card a {
+    color: #5FBFF9;
+}
+
+header a:hover, header .btn:hover, .card a:hover {
+    color: #EFE9F4;
+    text-decoration: none;
+}
