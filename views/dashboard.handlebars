@@ -23,14 +23,14 @@
     </form>
   </div>
 
-  {{#if post.length}}
+  {{#if posts.length}}
   <div class="col-md-6 post-list">
     <h3>Your posts:</h3>
 
-    {{#each post as |post|}}
+    {{#each posts as |post|}}
     <div class="row mb-2">
       <div class="col-md-8">
-        <h4><a href="/post/{{post.id}}">{{post.name}}</a></h4>
+        <h2><a href="/post/{{post.id}}">{{post.title}}</a> | {{format_date post.date_created}}</h2> 
       </div>
       <div class="col-md-4">
         <button class="btn btn-sm btn-danger" data-id="{{post.id}}">Delete</button>
